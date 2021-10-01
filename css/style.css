@@ -65,24 +65,24 @@ body {
   border-radius: 3px;
   padding: 0 30px;
   cursor: pointer;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: .5s;
+  transition: .5s;
   outline: none;
   margin-left: 15px;
 }
 
 .header__button:hover {
   background: #4545b5;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 .modal {
   position: absolute;
   visibility: hidden;
   opacity: 0;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: .5s;
+  transition: .5s;
   top: -1000px;
   right: 0;
   bottom: 0;
@@ -107,13 +107,13 @@ body {
   top: 0;
   visibility: visible;
   opacity: 1;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 .modal__content {
   width: 100%;
-  max-width: 500px;
+  max-width: 500rem;
   padding: 50px;
   background: #f9f9f9;
   -webkit-box-shadow: 0 5px 15px black;
@@ -141,14 +141,14 @@ body {
   top: 0;
   background: none;
   cursor: pointer;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: .5s;
+  transition: .5s;
   outline: none;
 }
 
 .modal__close-button:hover {
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: .5s;
+  transition: .5s;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
@@ -161,4 +161,5 @@ body {
 
 .modal__description {
   font-size: 1.125rem;
+  text-transform: uppercase;
 }
