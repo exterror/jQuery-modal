@@ -1,3 +1,6 @@
+$("h1").attr("style", "text-align: center; padding: 15px");
+$("p").attr("style", "text-align: center; color: grey; font-size: 18px; padding: 15px");
+
 $(function () {
   $('#callback-button').click(function (e) {
     e.preventDefault();
