@@ -4,6 +4,8 @@ body {
   height: 100vh;
   background: #777777;
   text-align: center;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p {
@@ -90,8 +92,8 @@ button {
 .fa:hover {
   -webkit-transition: .5s;
   transition: .5s;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .overlay {
