@@ -1,4 +1,4 @@
-$("p").attr("style", "text-align: center; color: grey; font-size: 18px; padding: 15px");
+$("body").attr("style", "text-align: center; color: grey; font-size: 18px;");
 
 $('.js-btn-modal').on('click', function () {
   $('#overlay').fadeIn(3);
